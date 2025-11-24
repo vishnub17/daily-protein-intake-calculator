@@ -1,0 +1,8 @@
+print("Welcome to my Python program!")
+
+protein_input = input("How many grams of protein did you eat today? ")
+
+protein = float(protein_input)
+weekly_protein = protein * 7
+
+print(f"\nGreat job! Based on today's intake, you are on track to consume about {weekly_protein} grams of protein this week.")
